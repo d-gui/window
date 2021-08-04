@@ -1,0 +1,20 @@
+{
+	"authors"     : [ "Vitaliy Fadeev" ],
+	"copyright"   : "Copyright © 2021, Vitaliy Fadeev",
+	"description" : "A minimal D application.",
+	"license"     : "proprietary",
+	"name"        : "window-glfw",
+    "targetType"  : "executable",
+    "configurations": 
+    [
+        {
+            "name"        : "linux-glfw",
+            "platforms"   : [ "linux" ],
+			"dependencies":
+			{
+                "window"  : { "path" : "../../" }
+			},
+			"versions"    : [ "GLFW", "GL3" ],
+		},
+	]
+}

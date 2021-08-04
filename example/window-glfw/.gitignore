@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/window-glfw
+window-glfw.so
+window-glfw.dylib
+window-glfw.dll
+window-glfw.a
+window-glfw.lib
+window-glfw-test-*
+*.exe
+*.o
+*.obj
+*.lst

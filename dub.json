@@ -1,0 +1,22 @@
+{
+	"authors"     : [ "Vitaliy Fadeev" ],
+	"copyright"   : "Copyright © 2021, Vitaliy Fadeev",
+	"description" : "A minimal D application.",
+	"license"     : "GPL3",
+	"name"        : "window",
+    "targetType"  : "library",
+    "configurations": 
+    [
+        {
+            "name"        : "linux-glfw",
+            "platforms"   : [ "linux" ],
+			"dependencies":
+			{
+	            "bindbc-loader" : { "path" : "deps/bindbc-loader" },
+	            "bindbc-glfw"   : { "path" : "deps/bindbc-glfw" },
+                "bindbc-opengl" : { "path" : "deps/bindbc-opengl" }
+			},
+			"versions"    : [ "GLFW", "GL3" ],
+		},
+	]
+}
