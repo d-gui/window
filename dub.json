@@ -12,9 +12,9 @@
             "platforms"   : [ "linux" ],
 			"dependencies":
 			{
-	            "bindbc-loader" : { "path" : "deps/bindbc-loader" },
-	            "bindbc-glfw"   : { "path" : "deps/bindbc-glfw" },
-                "bindbc-opengl" : { "path" : "deps/bindbc-opengl" }
+	            "bindbc-loader" : "1.0.0",
+	            "bindbc-glfw"   : "1.0.0",
+                "bindbc-opengl" : "1.0.0"
 			},
 			"versions"    : [ "GLFW", "GL3" ],
 		},
